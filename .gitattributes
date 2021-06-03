@@ -1,0 +1,2 @@
+data/T_files/* filter=lfs diff=lfs merge=lfs -text
+# data/pubmed* filter=lfs diff=lfs merge=lfs -text
