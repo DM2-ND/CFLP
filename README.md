@@ -2,7 +2,7 @@ Counterfactual Graph Learning for Link Prediction
 ====
 This repository contains the source code for the paper:
 
-Counterfactual Graph Learning for Link Prediction
+[Counterfactual Graph Learning for Link Prediction](https://arxiv.org/pdf/2106.02172.pdf)
 
 by by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), Gang Liu, Daheng Wang, Wenhao Yu, and [Meng Jiang](http://www.meng-jiang.com/).
 
@@ -33,5 +33,15 @@ python main.py --dataset ogbl-ddi --metric hits@20 --alpha 1e-3 --beta 1e-3 --ga
 ```
 The step of finding all the counterfactual links can be slow for the first run, please adjust the ```--n_workers``` parameter according to available processes.
 
+## Cite
+If you find this repository useful in your research, please cite our paper:
 
+```bibtex
+@article{zhao2021counterfactual,
+  title={Counterfactual Graph Learning for Link Prediction},
+  author={Zhao, Tong and Liu, Gang and Wang, Daheng and Yu, Wenhao and Jiang, Meng},
+  journal={arXiv preprint arXiv:2106.02172},
+  year={2021}
+}
+```
 
