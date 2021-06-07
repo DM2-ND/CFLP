@@ -56,6 +56,7 @@ def get_args():
     parser.add_argument('--test_frac', type=float, default=0.2, help='fraction of edges for testing set (and same number of no-edges)')
     parser.add_argument('--disc_func', type=str, default='lin', choices=['lin', 'kl', 'w'], help='distance function for discrepancy loss')
     parser.add_argument('--lr_scheduler', type=str, default='zigzag', choices=['sgdr', 'cos', 'zigzag', 'none'], help='lr scheduler')
+    parser.add_argument('--cal_ate', action='store_true', help='whether to calculate observed and estimated ATE')
     parser.add_argument('--metric', type=str, default='auc', choices=['auc', 'hits@20', 'hits@50'], help='main evaluation metric')
     parser.add_argument('--name', type=str, default='debug', help='name for this run for logging')
     args = parser.parse_args()
@@ -318,7 +319,6 @@ def main(args):
 
     logger.info(f'Input argument vector: {args.argv[1:]}')
     logger.info(f'args: {args}')
-    args.cal_ate = True
     if args.cal_ate:
         results = {'auc': [], 'ap': [], 'hits@20': [], 'hits@50': [], 'hits@100': [], 'best_val': [], 'ate_obs': [], 'ate_est': []}
     else:
