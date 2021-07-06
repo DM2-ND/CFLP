@@ -4,7 +4,7 @@ This repository contains the source code for the paper:
 
 [Counterfactual Graph Learning for Link Prediction](https://arxiv.org/pdf/2106.02172.pdf)
 
-by by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), Gang Liu, [Daheng Wang](https://dahengwang0705.github.io/), [Wenhao Yu](https://wyu97.github.io/), and [Meng Jiang](http://www.meng-jiang.com/).
+by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), Gang Liu, [Daheng Wang](https://dahengwang0705.github.io/), [Wenhao Yu](https://wyu97.github.io/), and [Meng Jiang](http://www.meng-jiang.com/).
 
 ## Requirements
 
