@@ -22,7 +22,7 @@ Following are the commands to reproduce our experiment results on different data
 python main.py --dataset cora --metric auc --alpha 1 --beta 1 --gamma 30 --lr 0.1 --embraw mvgrl --t kcore --neg_rate 50 --jk_mode mean --trail 20
 
 # CiteSeer
-python main.py --dataset citeseer --metric auc --alpha 1 --beta 1 --gamma 30 --lr=0.1 --embraw mvgrl --t kcore --neg_rate 50 --jk_mode mean --trail 20
+python main.py --dataset citeseer --metric auc --alpha 1 --beta 1 --gamma 30 --lr=0.1 --embraw dgi --t kcore --neg_rate 50 --jk_mode mean --trail 20
 
 # PubMed
 python main.py --dataset pubmed --metric auc --alpha 1 --beta 1 --gamma 30 --lr 0.1 --embraw mvgrl --t kcore --neg_rate 40 --jk_mode mean --batch_size 12000 --epochs 200 --patience 50 --trail 20
@@ -31,7 +31,7 @@ python main.py --dataset pubmed --metric auc --alpha 1 --beta 1 --gamma 30 --lr 
 python main.py --dataset facebook --metric hits@20 --alpha 1e-3 --beta 1e-3 --gamma 30 --lr 0.005 --embraw mvgrl --t louvain --neg_rate 1 --jk_mode mean --trail 20
 
 # OGBL-ddi
-python main.py --dataset ogbl-ddi --metric hits@20 --alpha 1e-3 --beta 1e-3 --gamma 10 --lr 0.01 --embraw mvgrl --t louvain  --neg_rate 1 --jk_mode mean --epochs=200 --epochs_ft=200 --patience=50 --trail 20
+python main.py --dataset ogbl-ddi --metric hits@20 --alpha 1e-3 --beta 1e-3 --gamma 10 --lr 0.01 --embraw dgi --t louvain  --neg_rate 1 --jk_mode mean --epochs=200 --epochs_ft=200 --patience=50 --trail 20
 ```
 
 ## Cite
