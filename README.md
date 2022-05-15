@@ -1,14 +1,14 @@
-Counterfactual Graph Learning for Link Prediction
+Learning from Counterfactual Links for Link Prediction
 ====
-This repository contains the source code for the paper:
+This repository contains the source code for the ICML 2022 paper:
 
-[Counterfactual Graph Learning for Link Prediction](https://arxiv.org/pdf/2106.02172.pdf)
+[Learning from Counterfactual Links for Link Prediction](https://arxiv.org/pdf/2106.02172.pdf)
 
-by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), Gang Liu, [Daheng Wang](https://dahengwang0705.github.io/), [Wenhao Yu](https://wyu97.github.io/), and [Meng Jiang](http://www.meng-jiang.com/).
+by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), [Gang Liu](https://scholar.google.com/citations?user=zdF3vTYAAAAJ&hl=en&oi=ao), [Daheng Wang](https://dahengwang0705.github.io/), [Wenhao Yu](https://wyu97.github.io/), and [Meng Jiang](http://www.meng-jiang.com/).
 
 ## Requirements
 
-This code package was developed and tested with Python 3.8.5 and PyTorch 1.6.0. All dependencies specified in the ```requirements.txt``` file. The packages can be installed by
+This code package was developed and tested with Python 3.8.5, PyTorch 1.6.0, and PyG 1.6.1. All dependencies specified in the ```requirements.txt``` file. The packages can be installed by
 ```
 pip install -r requirements.txt
 ```
