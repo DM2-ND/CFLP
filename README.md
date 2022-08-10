@@ -38,11 +38,13 @@ python main.py --dataset ogbl-ddi --metric hits@20 --alpha 1e-3 --beta 1e-3 --ga
 If you find this repository useful in your research, please cite our paper:
 
 ```bibtex
-@article{zhao2021counterfactual,
-  title={Counterfactual Graph Learning for Link Prediction},
+@inproceedings{zhao2022learning,
+  title={Learning from Counterfactual Links for Link Prediction},
   author={Zhao, Tong and Liu, Gang and Wang, Daheng and Yu, Wenhao and Jiang, Meng},
-  journal={arXiv preprint arXiv:2106.02172},
-  year={2021}
+  booktitle={International Conference on Machine Learning},
+  pages={26911--26926},
+  year={2022},
+  organization={PMLR}
 }
 ```
 
