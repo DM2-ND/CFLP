@@ -2,9 +2,9 @@ Learning from Counterfactual Links for Link Prediction
 ====
 This repository contains the source code for the ICML 2022 paper:
 
-[Learning from Counterfactual Links for Link Prediction](https://arxiv.org/pdf/2106.02172.pdf)
+[Learning from Counterfactual Links for Link Prediction](https://proceedings.mlr.press/v162/zhao22e/zhao22e.pdf)
 
-by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), [Gang Liu](https://scholar.google.com/citations?user=zdF3vTYAAAAJ&hl=en&oi=ao), [Daheng Wang](https://dahengwang0705.github.io/), [Wenhao Yu](https://wyu97.github.io/), and [Meng Jiang](http://www.meng-jiang.com/).
+by [Tong Zhao](https://tzhao.io/) (tzhao2@nd.edu), [Gang Liu](https://liugangcode.github.io/), [Daheng Wang](https://dahengwang0705.github.io/), [Wenhao Yu](https://wyu97.github.io/), and [Meng Jiang](http://www.meng-jiang.com/).
 
 ## Requirements
 
